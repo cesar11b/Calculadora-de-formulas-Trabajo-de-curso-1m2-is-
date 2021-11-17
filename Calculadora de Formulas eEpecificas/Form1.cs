@@ -31,6 +31,7 @@ namespace Calculadora_de_Formulas_eEpecificas
         {
             pnlMRU.Visible = false;
             pnlFormulasMRU.Visible = false;
+      
         }
 
         private void cmbIngresarTipo_SelectedIndexChanged(object sender, EventArgs e)
