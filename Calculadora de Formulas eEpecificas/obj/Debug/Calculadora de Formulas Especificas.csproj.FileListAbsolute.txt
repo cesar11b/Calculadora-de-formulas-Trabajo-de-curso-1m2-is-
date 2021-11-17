@@ -1,0 +1,20 @@
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Calculadora de Formulas eEpecificas.exe.config
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Calculadora de Formulas eEpecificas.exe
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Calculadora de Formulas eEpecificas.pdb
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csprojAssemblyReference.cache
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora_de_Formulas_eEpecificas.Form1.resources
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora_de_Formulas_eEpecificas.Properties.Resources.resources
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csproj.GenerateResource.cache
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csproj.CoreCompileInputs.cache
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas eEpecificas.exe
+C:\Users\JADPA_26\Source\Repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas eEpecificas.pdb
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Calculadora de Formulas eEpecificas.exe.config
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Calculadora de Formulas eEpecificas.exe
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Calculadora de Formulas eEpecificas.pdb
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csproj.AssemblyReference.cache
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora_de_Formulas_eEpecificas.Form1.resources
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora_de_Formulas_eEpecificas.Properties.Resources.resources
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csproj.GenerateResource.cache
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csproj.CoreCompileInputs.cache
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas eEpecificas.exe
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas eEpecificas.pdb

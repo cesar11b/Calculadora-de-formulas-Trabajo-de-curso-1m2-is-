@@ -16,5 +16,26 @@ namespace Calculadora_de_Formulas_eEpecificas
         {
             InitializeComponent();
         }
+
+        private void PnlFormulasMRU_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PnlMRU_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            pnlMRU.Visible = false;
+            pnlFormulasMRU.Visible = false;
+        }
+
+        private void cmbIngresarTipo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

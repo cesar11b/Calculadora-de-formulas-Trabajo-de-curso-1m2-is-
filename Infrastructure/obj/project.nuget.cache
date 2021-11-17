@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QIdQJOdFPPbBvlHwrqoH0r8o9Af0/tRkVN3ZEFXNv23PB+9aLGT0bu8f/AFKUvA6PPBD7fc6DTGJiFZMnuSv/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\8cviv\\source\\repos\\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\8cviv\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\8cviv\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
