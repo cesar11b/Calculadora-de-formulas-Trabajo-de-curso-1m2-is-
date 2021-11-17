@@ -6,7 +6,7 @@ namespace Infrastructure.Formulas_fisicas
 {
     public class MRUV
     {
-
+        
         public double VelFinalV1(double VelInical, double acelaracion, double IntervaloTiempo)
         {
 
