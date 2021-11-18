@@ -7,20 +7,27 @@ namespace Infrastructure.Temperatura
     public class FormulaGeneral
     {
 
-        public double FormGenPos(double a, double b, double c)
+        public double FormGenPos(string a, string b, string c)
         {
+            int a1 = (int)Convert.ToDouble(a);
+            int b1 = (int)Convert.ToDouble(b);
+            int c1 = (int)Convert.ToDouble(c);
+            
 
-            double resultado = (-b + Math.Sqrt(((b * b) - (4 * a * c)))) / 2 * a;
+            double resultado = (-b1 + Math.Sqrt(((b1 * b1) - (4 * a1 * c1)))) / 2 * a1;
 
 
             return resultado;
 
 
         }
-        public double FormGenNeg(double a, double b, double c)
+        public double FormGenNeg(string a, string b, string c)
         {
+            int a1 = (int)Convert.ToDouble(a);
+            int b1 = (int)Convert.ToDouble(b);
+            int c1 = (int)Convert.ToDouble(c);
 
-            double resultado = (-b - Math.Sqrt(((b * b) - (4 * a * c)))) / 2 * a;
+            double resultado = (-b1 - Math.Sqrt(((b1 * b1) - (4 * a1 * c1)))) / 2 * a1;
 
 
             return resultado;
