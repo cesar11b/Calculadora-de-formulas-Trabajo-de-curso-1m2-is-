@@ -17,7 +17,6 @@ namespace Infrastructure.Temperatura
 
 
         }
-
         public double FormGenNeg(double a, double b, double c)
         {
 
