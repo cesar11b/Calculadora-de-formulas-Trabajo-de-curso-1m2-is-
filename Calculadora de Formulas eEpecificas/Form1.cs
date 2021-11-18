@@ -18,6 +18,7 @@ namespace Calculadora_de_Formulas_eEpecificas
     {
         public Form1()
         {
+
             InitializeComponent();
         }
 
