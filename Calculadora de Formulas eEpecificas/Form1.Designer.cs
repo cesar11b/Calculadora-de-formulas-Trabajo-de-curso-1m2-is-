@@ -119,7 +119,7 @@
             this.pnlCaidaLibre.Controls.Add(this.label14);
             this.pnlCaidaLibre.Controls.Add(this.txtVelocidadInicialCaida);
             this.pnlCaidaLibre.Controls.Add(this.label13);
-            this.pnlCaidaLibre.Location = new System.Drawing.Point(464, 298);
+            this.pnlCaidaLibre.Location = new System.Drawing.Point(458, 9);
             this.pnlCaidaLibre.Name = "pnlCaidaLibre";
             this.pnlCaidaLibre.Size = new System.Drawing.Size(585, 65);
             this.pnlCaidaLibre.TabIndex = 13;
@@ -185,7 +185,7 @@
             this.pnlFormulasMRUvel.Controls.Add(this.label6);
             this.pnlFormulasMRUvel.Controls.Add(this.txtDistanciadevel);
             this.pnlFormulasMRUvel.Controls.Add(this.label3);
-            this.pnlFormulasMRUvel.Location = new System.Drawing.Point(12, 144);
+            this.pnlFormulasMRUvel.Location = new System.Drawing.Point(485, 28);
             this.pnlFormulasMRUvel.Name = "pnlFormulasMRUvel";
             this.pnlFormulasMRUvel.Size = new System.Drawing.Size(476, 132);
             this.pnlFormulasMRUvel.TabIndex = 12;
@@ -259,7 +259,7 @@
             this.pnlFormulasMRU.Controls.Add(this.txtVeldeDis);
             this.pnlFormulasMRU.Controls.Add(this.label2);
             this.pnlFormulasMRU.Controls.Add(this.label1);
-            this.pnlFormulasMRU.Location = new System.Drawing.Point(467, 15);
+            this.pnlFormulasMRU.Location = new System.Drawing.Point(519, 12);
             this.pnlFormulasMRU.Name = "pnlFormulasMRU";
             this.pnlFormulasMRU.Size = new System.Drawing.Size(593, 123);
             this.pnlFormulasMRU.TabIndex = 11;
@@ -372,7 +372,7 @@
             this.pnlMRUtiempo.Controls.Add(this.txtDistanciadeTiempo);
             this.pnlMRUtiempo.Controls.Add(this.label11);
             this.pnlMRUtiempo.Controls.Add(this.label12);
-            this.pnlMRUtiempo.Location = new System.Drawing.Point(470, 98);
+            this.pnlMRUtiempo.Location = new System.Drawing.Point(513, 18);
             this.pnlMRUtiempo.Name = "pnlMRUtiempo";
             this.pnlMRUtiempo.Size = new System.Drawing.Size(593, 123);
             this.pnlMRUtiempo.TabIndex = 12;
@@ -447,9 +447,9 @@
             this.pnlFormulaGeneral.Controls.Add(this.txtBForm);
             this.pnlFormulaGeneral.Controls.Add(this.label16);
             this.pnlFormulaGeneral.Controls.Add(this.txtAForm);
-            this.pnlFormulaGeneral.Location = new System.Drawing.Point(464, 227);
+            this.pnlFormulaGeneral.Location = new System.Drawing.Point(467, 20);
             this.pnlFormulaGeneral.Name = "pnlFormulaGeneral";
-            this.pnlFormulaGeneral.Size = new System.Drawing.Size(660, 65);
+            this.pnlFormulaGeneral.Size = new System.Drawing.Size(658, 65);
             this.pnlFormulaGeneral.TabIndex = 16;
             // 
             // btnCalcularForm
@@ -529,7 +529,7 @@
             this.pnlFuerza.Controls.Add(this.label20);
             this.pnlFuerza.Controls.Add(this.label19);
             this.pnlFuerza.Controls.Add(this.txtMasaNewton);
-            this.pnlFuerza.Location = new System.Drawing.Point(464, 369);
+            this.pnlFuerza.Location = new System.Drawing.Point(470, 14);
             this.pnlFuerza.Name = "pnlFuerza";
             this.pnlFuerza.Size = new System.Drawing.Size(573, 65);
             this.pnlFuerza.TabIndex = 17;

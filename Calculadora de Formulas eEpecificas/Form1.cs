@@ -35,7 +35,7 @@ namespace Calculadora_de_Formulas_eEpecificas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lblInfoMRU.Visible = false;
+           
 
 
             pnlFuerza.Visible = false;
@@ -55,7 +55,6 @@ namespace Calculadora_de_Formulas_eEpecificas
                 case 0:
 
 
-                    lblInfoMRU.Visible = true;
 
                     pnlMRUtiempo.Visible = false;
                     pnlFormulasMRUvel.Visible = false;
@@ -70,7 +69,7 @@ namespace Calculadora_de_Formulas_eEpecificas
                     break;
 
                 case 1:
-                    lblInfoMRU.Visible = false;
+                    
 
                     pnlMRUtiempo.Visible = false;
                     pnlFormulasMRUvel.Visible = false;
@@ -85,7 +84,7 @@ namespace Calculadora_de_Formulas_eEpecificas
 
                 case 2:
 
-                    lblInfoMRU.Visible = false;
+                   
 
 
                     pnlMRUtiempo.Visible = false;
@@ -100,7 +99,7 @@ namespace Calculadora_de_Formulas_eEpecificas
 
                 case 3:
 
-                    lblInfoMRU.Visible = false;
+                    
 
 
                     pnlMRUtiempo.Visible = false;
