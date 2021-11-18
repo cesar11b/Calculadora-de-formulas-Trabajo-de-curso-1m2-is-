@@ -39,6 +39,7 @@ namespace Calculadora_de_Formulas_eEpecificas
 
 
 
+
             pnlFuerza.Visible = false;
             pnlFormulaGeneral.Visible = false;
             pnlFormulasMRUvel.Visible = false;
