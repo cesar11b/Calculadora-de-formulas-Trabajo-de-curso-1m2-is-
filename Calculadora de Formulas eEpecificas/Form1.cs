@@ -32,8 +32,8 @@ namespace Calculadora_de_Formulas_eEpecificas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-
+            pnlFuerza.Visible = false;
+            pnlFormulaGeneral.Visible = false;
             pnlFormulasMRUvel.Visible = false;
             pnlMRUtiempo.Visible = false;
             pnlMRU.Visible = false;
@@ -50,14 +50,32 @@ namespace Calculadora_de_Formulas_eEpecificas
 
                     pnlMRU.Visible = true;
                     pnlCaidaLibre.Visible = false;
-                    
+                    pnlFormulaGeneral.Visible = false;
+                    pnlFuerza.Visible = false;
 
                     break;
 
                 case 1:
                     pnlMRU.Visible = false;
                     pnlCaidaLibre.Visible = true;
+                    pnlFormulaGeneral.Visible = false;
+                    pnlFuerza.Visible = false;
+                    break;
 
+                case 2:
+                    pnlMRU.Visible = false;
+                    pnlCaidaLibre.Visible = false;
+                    pnlFormulaGeneral.Visible = true;
+                    pnlFuerza.Visible = false;
+                    break;
+
+                case 3:
+
+
+                    pnlMRU.Visible = false;
+                    pnlCaidaLibre.Visible = false;
+                    pnlFormulaGeneral.Visible = false;
+                    pnlFuerza.Visible = true;
 
                     break;
 
@@ -106,7 +124,7 @@ namespace Calculadora_de_Formulas_eEpecificas
             data2 = data1;
 
 
-            rtbHistorial.Text = $"" + data2 + "la Velocidad es igual a: " + mru.Velocidad(txtDistanciadevel.Text, txtTiempodevel.Text)+ " en su respectiva medida";
+            rtbHistorial.Text = $"" + data2 + "         la Velocidad es igual a: " + mru.Velocidad(txtDistanciadevel.Text, txtTiempodevel.Text)+ " en su respectiva medida";
 
 
         }
@@ -184,7 +202,8 @@ namespace Calculadora_de_Formulas_eEpecificas
             data2 = data1;
 
 
-            rtbHistorial.Text = $"" + data2 + "         el valor d ela formula general es: " + formulageneral.FormGenPos(txtAForm.Text, txtBForm.Text, txtCForm.Text) + " y "+ formulageneral.FormGenNeg(txtAForm.Text, txtBForm.Text, txtCForm.Text);
+            rtbHistorial.Text = $"" + data2 + "         el valor de la formula general Para" +
+                " X1 Y X2 es: " + formulageneral.FormGenPos(txtAForm.Text, txtBForm.Text, txtCForm.Text) + " y "+ formulageneral.FormGenNeg(txtAForm.Text, txtBForm.Text, txtCForm.Text);
 
 
 

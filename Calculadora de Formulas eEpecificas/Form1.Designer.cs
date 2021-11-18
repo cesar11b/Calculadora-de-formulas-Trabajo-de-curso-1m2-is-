@@ -30,8 +30,6 @@
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rtbHistorial = new System.Windows.Forms.RichTextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rtbData = new System.Windows.Forms.RichTextBox();
             this.pnlCaidaLibre = new System.Windows.Forms.Panel();
             this.btnAlturaCaidaLibre = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
@@ -76,9 +74,13 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtAForm = new System.Windows.Forms.TextBox();
             this.pnlFuerza = new System.Windows.Forms.Panel();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.pnlCaidaLibre.SuspendLayout();
             this.pnlFormulasMRUvel.SuspendLayout();
             this.pnlFormulasMRU.SuspendLayout();
@@ -91,7 +93,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.rtbHistorial);
-            this.groupBox2.Location = new System.Drawing.Point(395, 273);
+            this.groupBox2.Location = new System.Drawing.Point(54, 249);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(363, 287);
             this.groupBox2.TabIndex = 15;
@@ -105,24 +107,6 @@
             this.rtbHistorial.Size = new System.Drawing.Size(318, 245);
             this.rtbHistorial.TabIndex = 5;
             this.rtbHistorial.Text = "";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.rtbData);
-            this.groupBox1.Location = new System.Drawing.Point(12, 273);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(363, 287);
-            this.groupBox1.TabIndex = 14;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Instrucciones";
-            // 
-            // rtbData
-            // 
-            this.rtbData.Location = new System.Drawing.Point(20, 19);
-            this.rtbData.Name = "rtbData";
-            this.rtbData.Size = new System.Drawing.Size(318, 245);
-            this.rtbData.TabIndex = 5;
-            this.rtbData.Text = "";
             // 
             // pnlCaidaLibre
             // 
@@ -369,7 +353,7 @@
             "Mov Rectilineo Uniforme",
             "Caida Libre",
             "Formula General",
-            "Fuerza"});
+            "Fuerza Newton"});
             this.cmbIngresarTipo.Location = new System.Drawing.Point(12, 45);
             this.cmbIngresarTipo.Name = "cmbIngresarTipo";
             this.cmbIngresarTipo.Size = new System.Drawing.Size(184, 21);
@@ -460,7 +444,7 @@
             this.pnlFormulaGeneral.Controls.Add(this.txtBForm);
             this.pnlFormulaGeneral.Controls.Add(this.label16);
             this.pnlFormulaGeneral.Controls.Add(this.txtAForm);
-            this.pnlFormulaGeneral.Location = new System.Drawing.Point(214, 163);
+            this.pnlFormulaGeneral.Location = new System.Drawing.Point(467, 46);
             this.pnlFormulaGeneral.Name = "pnlFormulaGeneral";
             this.pnlFormulaGeneral.Size = new System.Drawing.Size(660, 65);
             this.pnlFormulaGeneral.TabIndex = 16;
@@ -535,20 +519,66 @@
             // 
             // pnlFuerza
             // 
-            this.pnlFuerza.Controls.Add(this.comboBox2);
-            this.pnlFuerza.Location = new System.Drawing.Point(663, 234);
+            this.pnlFuerza.Controls.Add(this.textBox2);
+            this.pnlFuerza.Controls.Add(this.label22);
+            this.pnlFuerza.Controls.Add(this.label21);
+            this.pnlFuerza.Controls.Add(this.label20);
+            this.pnlFuerza.Controls.Add(this.label19);
+            this.pnlFuerza.Controls.Add(this.textBox1);
+            this.pnlFuerza.Location = new System.Drawing.Point(266, 178);
             this.pnlFuerza.Name = "pnlFuerza";
-            this.pnlFuerza.Size = new System.Drawing.Size(247, 65);
+            this.pnlFuerza.Size = new System.Drawing.Size(573, 65);
             this.pnlFuerza.TabIndex = 17;
             // 
-            // comboBox2
+            // textBox1
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(0, 15);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 0;
+            this.textBox1.Location = new System.Drawing.Point(110, 18);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(3, 25);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(39, 13);
+            this.label19.TabIndex = 1;
+            this.label19.Text = "fuerza:";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(137, 41);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(33, 13);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "Masa";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(232, 24);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(83, 13);
+            this.label21.TabIndex = 3;
+            this.label21.Text = "multiplicado por:";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(347, 41);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(63, 13);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Aceleracion";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(325, 18);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 5;
             // 
             // Form1
             // 
@@ -561,7 +591,6 @@
             this.Controls.Add(this.pnlMRUtiempo);
             this.Controls.Add(this.pnlFormulasMRUvel);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pnlFormulasMRU);
             this.Controls.Add(this.pnlMRU);
             this.Controls.Add(this.cmbIngresarTipo);
@@ -569,7 +598,6 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
             this.pnlCaidaLibre.ResumeLayout(false);
             this.pnlCaidaLibre.PerformLayout();
             this.pnlFormulasMRUvel.ResumeLayout(false);
@@ -582,6 +610,7 @@
             this.pnlFormulaGeneral.ResumeLayout(false);
             this.pnlFormulaGeneral.PerformLayout();
             this.pnlFuerza.ResumeLayout(false);
+            this.pnlFuerza.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -590,8 +619,6 @@
 
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RichTextBox rtbHistorial;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RichTextBox rtbData;
         private System.Windows.Forms.Panel pnlCaidaLibre;
         private System.Windows.Forms.Panel pnlFormulasMRUvel;
         private System.Windows.Forms.Panel pnlFormulasMRU;
@@ -622,7 +649,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel pnlFormulaGeneral;
         private System.Windows.Forms.Panel pnlFuerza;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.TextBox txtVelocidadInicialCaida;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
@@ -637,6 +663,12 @@
         private System.Windows.Forms.TextBox txtBForm;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtAForm;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label21;
     }
 }
 
