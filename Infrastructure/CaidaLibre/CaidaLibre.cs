@@ -7,11 +7,15 @@ namespace Infrastructure.CaidaLibre
     public class CaidaLibre
     {
 
-        public double Altura1(double vi, double t)
+        public double Altura1(string vi, string t)
         {
             double resultado;
 
-            resultado = vi * t + ((9.8*(t*t))/2);
+            int vi1 = (int)Convert.ToDouble(vi);
+            int t1 = (int)Convert.ToDouble(t);
+
+
+            resultado = vi1 * t1  + ((9.8*(t1*t1))/2);
             //mxs
 
             return resultado;

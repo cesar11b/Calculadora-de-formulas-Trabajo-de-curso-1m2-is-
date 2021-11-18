@@ -18,3 +18,6 @@ C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Cal
 C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csproj.CoreCompileInputs.cache
 C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas eEpecificas.exe
 C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas eEpecificas.pdb
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Infrastructure.dll
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\bin\Debug\Infrastructure.pdb
+C:\Users\8cviv\source\repos\Calculadora-de-formulas-Trabajo-de-curso-1m2-is-\Calculadora de Formulas eEpecificas\obj\Debug\Calculadora de Formulas Especificas.csproj.CopyComplete

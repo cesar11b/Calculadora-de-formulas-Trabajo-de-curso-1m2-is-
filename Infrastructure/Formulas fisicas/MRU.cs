@@ -7,9 +7,12 @@ namespace Infrastructure
     public class MRU
     {
 
-        public float Distancia(float v, float t)
+        public double Distancia(string v, string t)
         {
-            float resultado = v * t;
+            int v1 = (int)Convert.ToDouble(v);
+            int t1 = (int)Convert.ToDouble(t);
+
+            double resultado = v1 * t1;
 
 
 
@@ -19,22 +22,32 @@ namespace Infrastructure
         }
 
 
-        public float Velocidad(float d, float t)
+        public double Velocidad(string d, string t)
         {
 
-            float resultado = d / t;
+            int d1 = (int)Convert.ToDouble(d);
+            int t1 = (int)Convert.ToDouble(t);
+
+
+            double resultado = d1 / t1;
 
             return resultado;
 
 
         }
 
-        public float Tiempo(float d, float v)
+        public double Tiempo(string d, string v)
         {
 
-            float resultado = d / v;
+
+            int d1 = (int)Convert.ToDouble(d);
+            int v1 = (int)Convert.ToDouble(v);
+
+
+            double resultado = d1 / v1;
 
             return resultado;
+            
 
 
         }
