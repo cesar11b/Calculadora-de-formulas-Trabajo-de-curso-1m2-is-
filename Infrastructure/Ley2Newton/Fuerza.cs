@@ -8,15 +8,19 @@ namespace Infrastructure.Ley2Newton
     {
 
 
-        public double Fuerza1(double m, double a)
+        public double Fuerza1(string m, string a)
         {
+
+            int m1 = (int)Convert.ToDouble(m);
+            int a1 = (int)Convert.ToDouble(a);
+
             //masa en kilogramos
 
             //aceleracion en m/s2
 
             double resultado;
 
-            resultado = m * a;
+            resultado = m1 * a1;
 
 
             return resultado;

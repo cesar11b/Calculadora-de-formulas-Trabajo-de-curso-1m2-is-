@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblInfoMRU.Text" xml:space="preserve">
+    <value>Aviso: si desea calcular distancias,
+velocidades o tiempos recuerde usar las medidas
+correctas, si desea calculas la distancia en kilometros recuerde
+ingresar su velocidad medida en kilometros por hora y su
+tiempo en horas
+</value>
+  </data>
 </root>

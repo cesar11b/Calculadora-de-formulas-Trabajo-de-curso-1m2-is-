@@ -10,7 +10,7 @@ namespace Infrastructure.CaidaLibre
         public double Altura1(string vi, string t)
         {
             double resultado;
-
+            
             int vi1 = (int)Convert.ToDouble(vi);
             int t1 = (int)Convert.ToDouble(t);
 

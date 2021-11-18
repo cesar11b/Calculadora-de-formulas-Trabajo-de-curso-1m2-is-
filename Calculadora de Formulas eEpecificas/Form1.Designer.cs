@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rtbHistorial = new System.Windows.Forms.RichTextBox();
             this.pnlCaidaLibre = new System.Windows.Forms.Panel();
@@ -74,12 +75,14 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtAForm = new System.Windows.Forms.TextBox();
             this.pnlFuerza = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMasaNewton = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtAcelNewton = new System.Windows.Forms.TextBox();
+            this.lblInfoMRU = new System.Windows.Forms.Label();
+            this.btnCalcularFuerza = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.pnlCaidaLibre.SuspendLayout();
             this.pnlFormulasMRUvel.SuspendLayout();
@@ -116,7 +119,7 @@
             this.pnlCaidaLibre.Controls.Add(this.label14);
             this.pnlCaidaLibre.Controls.Add(this.txtVelocidadInicialCaida);
             this.pnlCaidaLibre.Controls.Add(this.label13);
-            this.pnlCaidaLibre.Location = new System.Drawing.Point(477, 41);
+            this.pnlCaidaLibre.Location = new System.Drawing.Point(464, 298);
             this.pnlCaidaLibre.Name = "pnlCaidaLibre";
             this.pnlCaidaLibre.Size = new System.Drawing.Size(585, 65);
             this.pnlCaidaLibre.TabIndex = 13;
@@ -182,9 +185,9 @@
             this.pnlFormulasMRUvel.Controls.Add(this.label6);
             this.pnlFormulasMRUvel.Controls.Add(this.txtDistanciadevel);
             this.pnlFormulasMRUvel.Controls.Add(this.label3);
-            this.pnlFormulasMRUvel.Location = new System.Drawing.Point(493, 28);
+            this.pnlFormulasMRUvel.Location = new System.Drawing.Point(12, 144);
             this.pnlFormulasMRUvel.Name = "pnlFormulasMRUvel";
-            this.pnlFormulasMRUvel.Size = new System.Drawing.Size(593, 132);
+            this.pnlFormulasMRUvel.Size = new System.Drawing.Size(476, 132);
             this.pnlFormulasMRUvel.TabIndex = 12;
             // 
             // btncalcVelMRU
@@ -256,7 +259,7 @@
             this.pnlFormulasMRU.Controls.Add(this.txtVeldeDis);
             this.pnlFormulasMRU.Controls.Add(this.label2);
             this.pnlFormulasMRU.Controls.Add(this.label1);
-            this.pnlFormulasMRU.Location = new System.Drawing.Point(496, 25);
+            this.pnlFormulasMRU.Location = new System.Drawing.Point(467, 15);
             this.pnlFormulasMRU.Name = "pnlFormulasMRU";
             this.pnlFormulasMRU.Size = new System.Drawing.Size(593, 123);
             this.pnlFormulasMRU.TabIndex = 11;
@@ -369,7 +372,7 @@
             this.pnlMRUtiempo.Controls.Add(this.txtDistanciadeTiempo);
             this.pnlMRUtiempo.Controls.Add(this.label11);
             this.pnlMRUtiempo.Controls.Add(this.label12);
-            this.pnlMRUtiempo.Location = new System.Drawing.Point(486, 34);
+            this.pnlMRUtiempo.Location = new System.Drawing.Point(470, 98);
             this.pnlMRUtiempo.Name = "pnlMRUtiempo";
             this.pnlMRUtiempo.Size = new System.Drawing.Size(593, 123);
             this.pnlMRUtiempo.TabIndex = 12;
@@ -444,7 +447,7 @@
             this.pnlFormulaGeneral.Controls.Add(this.txtBForm);
             this.pnlFormulaGeneral.Controls.Add(this.label16);
             this.pnlFormulaGeneral.Controls.Add(this.txtAForm);
-            this.pnlFormulaGeneral.Location = new System.Drawing.Point(467, 46);
+            this.pnlFormulaGeneral.Location = new System.Drawing.Point(464, 227);
             this.pnlFormulaGeneral.Name = "pnlFormulaGeneral";
             this.pnlFormulaGeneral.Size = new System.Drawing.Size(660, 65);
             this.pnlFormulaGeneral.TabIndex = 16;
@@ -519,23 +522,24 @@
             // 
             // pnlFuerza
             // 
-            this.pnlFuerza.Controls.Add(this.textBox2);
+            this.pnlFuerza.Controls.Add(this.btnCalcularFuerza);
+            this.pnlFuerza.Controls.Add(this.txtAcelNewton);
             this.pnlFuerza.Controls.Add(this.label22);
             this.pnlFuerza.Controls.Add(this.label21);
             this.pnlFuerza.Controls.Add(this.label20);
             this.pnlFuerza.Controls.Add(this.label19);
-            this.pnlFuerza.Controls.Add(this.textBox1);
-            this.pnlFuerza.Location = new System.Drawing.Point(266, 178);
+            this.pnlFuerza.Controls.Add(this.txtMasaNewton);
+            this.pnlFuerza.Location = new System.Drawing.Point(464, 369);
             this.pnlFuerza.Name = "pnlFuerza";
             this.pnlFuerza.Size = new System.Drawing.Size(573, 65);
             this.pnlFuerza.TabIndex = 17;
             // 
-            // textBox1
+            // txtMasaNewton
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 18);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtMasaNewton.Location = new System.Drawing.Point(110, 18);
+            this.txtMasaNewton.Name = "txtMasaNewton";
+            this.txtMasaNewton.Size = new System.Drawing.Size(100, 20);
+            this.txtMasaNewton.TabIndex = 0;
             // 
             // label19
             // 
@@ -573,18 +577,38 @@
             this.label22.TabIndex = 4;
             this.label22.Text = "Aceleracion";
             // 
-            // textBox2
+            // txtAcelNewton
             // 
-            this.textBox2.Location = new System.Drawing.Point(325, 18);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.txtAcelNewton.Location = new System.Drawing.Point(325, 18);
+            this.txtAcelNewton.Name = "txtAcelNewton";
+            this.txtAcelNewton.Size = new System.Drawing.Size(100, 20);
+            this.txtAcelNewton.TabIndex = 5;
+            // 
+            // lblInfoMRU
+            // 
+            this.lblInfoMRU.AutoSize = true;
+            this.lblInfoMRU.Location = new System.Drawing.Point(18, 76);
+            this.lblInfoMRU.Name = "lblInfoMRU";
+            this.lblInfoMRU.Size = new System.Drawing.Size(304, 65);
+            this.lblInfoMRU.TabIndex = 18;
+            this.lblInfoMRU.Text = resources.GetString("lblInfoMRU.Text");
+            // 
+            // btnCalcularFuerza
+            // 
+            this.btnCalcularFuerza.Location = new System.Drawing.Point(452, 17);
+            this.btnCalcularFuerza.Name = "btnCalcularFuerza";
+            this.btnCalcularFuerza.Size = new System.Drawing.Size(75, 23);
+            this.btnCalcularFuerza.TabIndex = 12;
+            this.btnCalcularFuerza.Text = "Calcular";
+            this.btnCalcularFuerza.UseVisualStyleBackColor = true;
+            this.btnCalcularFuerza.Click += new System.EventHandler(this.btnCalcularFuerza_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1231, 572);
+            this.ClientSize = new System.Drawing.Size(1370, 572);
+            this.Controls.Add(this.lblInfoMRU);
             this.Controls.Add(this.pnlFuerza);
             this.Controls.Add(this.pnlCaidaLibre);
             this.Controls.Add(this.pnlFormulaGeneral);
@@ -595,7 +619,7 @@
             this.Controls.Add(this.pnlMRU);
             this.Controls.Add(this.cmbIngresarTipo);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.pnlCaidaLibre.ResumeLayout(false);
@@ -612,6 +636,7 @@
             this.pnlFuerza.ResumeLayout(false);
             this.pnlFuerza.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -665,10 +690,12 @@
         private System.Windows.Forms.TextBox txtAForm;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtMasaNewton;
+        private System.Windows.Forms.TextBox txtAcelNewton;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label lblInfoMRU;
+        private System.Windows.Forms.Button btnCalcularFuerza;
     }
 }
 
